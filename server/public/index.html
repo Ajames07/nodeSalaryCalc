@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Employee Salary Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="vendors/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <script src="vendors/jquery-3.3.1.min.js"></script>
+    <script src="client.js"></script>
+</head>
+<div>
+    <h1>Employee Salary Calculator</h1>
+</div>
+
+<body>
+    <div class="container">
+        <div class="logIn row">
+            <input type="text" id="firstNameIn" placeholder="First Name">
+            <input type="text" id="lastNameIn" placeholder="Last Name">
+            <input type="number" id="empIdIn" placeholder="Employee Id">
+            <input type="text" id="jobTitleIn" placeholder="Job Title">
+            <input type="number" id="salaryIn" placeholder="Annual Salary">
+            <button type="submit" class="btn btn-primary addIn">Submit</button>
+        </div>
+    </div>
+    <div class="container">
+        <table class "table">
+            <thead>
+                <tr>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">ID Number</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Monthly Salary</th>
+                </tr>
+            </thead>
+            <tbody class="displayInfo">
+
+            </tbody>
+        </table>
+        <div class="monthlyCost">
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
